@@ -1,9 +1,42 @@
 .movie {
+    background-color: #373b69;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     color: white;
     font-family: "Poppins", sans-serif;
+    overflow: hidden;
     width: 300px;
+    margin: 1rem;
+    position: relative;
+}
+
+.movie:hover .movie-over {
+    transform: translateX(0%);
 }
 
 .movie img {
     max-width: 100%;
+}
+
+.movie-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 1rem;
+}
+
+.movie-info h3 {
+    margin: 0;
+}
+
+.movie-over {
+    background-color: #fff;
+    color: #22254b;
+    font-size: 0.9rem;
+    padding: 0.8rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateX(100%);
 }
