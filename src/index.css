@@ -11,3 +11,8 @@ body {
   font-family: "Poppins", sans-serif;  
 }
 
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
