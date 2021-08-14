@@ -1,8 +1,8 @@
 .movie {
-    background-color: #373b69;
+    background-color: var(--lightblue-color);
     border-radius: 3px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-    color: white;
+    color: var(--white-color);
     font-family: "Poppins", sans-serif;
     overflow: hidden;
     width: 300px;
@@ -23,7 +23,7 @@
 .movie-info {
     display: flex;
     align-items: center;
-    justify-content: space-between ;
+    justify-content: space-between;
     padding: 1rem;
 }
 
@@ -32,8 +32,8 @@
 }
 
 .movie-over {
-    background-color: #fff;
-    color: #22254b;
+    background-color: var(--white-color);
+    color: var(--darkblue-color);
     font-size: 0.9rem;
     padding: 0.8rem;
     position: absolute;
@@ -46,20 +46,20 @@
 }
 
 .tag {
-    background-color: #22254b;
+    background-color: var(--darkblue-color);
     border-radius: 5px;
     padding: 0.5rem;
     font-weight: bold;
 }
 
 .tag.green {
-    color: green;
+    color: var(--green-color);
 }
 
 .tag.orange {
-    color: orange;
+    color: var(--orange-color);
 }
 
 .tag.red {
-    color: red;
+    color: var(--red-color);
 }
