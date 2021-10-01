@@ -34,6 +34,18 @@ header {
   padding: 0.5rem 1.5rem;
 }
 
+@media (max-width: 400px) {
+  .finomax-logo {
+    width: 110px;
+    height: 20px;
+  }
+
+  .search {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
+}
+
 .search:focus {
   outline: 0;
 }

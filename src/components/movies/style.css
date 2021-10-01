@@ -1,7 +1,7 @@
 .movie {
     background-color: var(--lightblue-color);
     border-radius: 3px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.5);
     color: var(--white-color);
     font-family: "Poppins", sans-serif;
     overflow: hidden;
